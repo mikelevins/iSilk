@@ -1,0 +1,319 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		97E934871C0E59100032438E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97E934861C0E59100032438E /* AppDelegate.swift */; };
+		97E934891C0E59100032438E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97E934881C0E59100032438E /* ViewController.swift */; };
+		97E9348C1C0E59100032438E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97E9348A1C0E59100032438E /* Main.storyboard */; };
+		97E9348F1C0E59100032438E /* iSilk.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 97E9348D1C0E59100032438E /* iSilk.xcdatamodeld */; };
+		97E934911C0E59100032438E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97E934901C0E59100032438E /* Assets.xcassets */; };
+		97E934941C0E59100032438E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97E934921C0E59100032438E /* LaunchScreen.storyboard */; };
+		97E9349C1C0E59400032438E /* SceneKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97E9349B1C0E59400032438E /* SceneKit.framework */; };
+		97E9349E1C0E59B00032438E /* FabricScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97E9349D1C0E59B00032438E /* FabricScene.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		97E934831C0E59100032438E /* iSilk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iSilk.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		97E934861C0E59100032438E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		97E934881C0E59100032438E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		97E9348B1C0E59100032438E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		97E9348E1C0E59100032438E /* iSilk.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iSilk.xcdatamodel; sourceTree = "<group>"; };
+		97E934901C0E59100032438E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		97E934931C0E59100032438E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		97E934951C0E59100032438E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		97E9349B1C0E59400032438E /* SceneKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SceneKit.framework; path = System/Library/Frameworks/SceneKit.framework; sourceTree = SDKROOT; };
+		97E9349D1C0E59B00032438E /* FabricScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FabricScene.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		97E934801C0E59100032438E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97E9349C1C0E59400032438E /* SceneKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		97E9347A1C0E59100032438E = {
+			isa = PBXGroup;
+			children = (
+				97E9349B1C0E59400032438E /* SceneKit.framework */,
+				97E934851C0E59100032438E /* iSilk */,
+				97E934841C0E59100032438E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		97E934841C0E59100032438E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				97E934831C0E59100032438E /* iSilk.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		97E934851C0E59100032438E /* iSilk */ = {
+			isa = PBXGroup;
+			children = (
+				97E934861C0E59100032438E /* AppDelegate.swift */,
+				97E9349D1C0E59B00032438E /* FabricScene.swift */,
+				97E934881C0E59100032438E /* ViewController.swift */,
+				97E9348A1C0E59100032438E /* Main.storyboard */,
+				97E934901C0E59100032438E /* Assets.xcassets */,
+				97E934921C0E59100032438E /* LaunchScreen.storyboard */,
+				97E934951C0E59100032438E /* Info.plist */,
+				97E9348D1C0E59100032438E /* iSilk.xcdatamodeld */,
+			);
+			path = iSilk;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		97E934821C0E59100032438E /* iSilk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 97E934981C0E59100032438E /* Build configuration list for PBXNativeTarget "iSilk" */;
+			buildPhases = (
+				97E9347F1C0E59100032438E /* Sources */,
+				97E934801C0E59100032438E /* Frameworks */,
+				97E934811C0E59100032438E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iSilk;
+			productName = iSilk;
+			productReference = 97E934831C0E59100032438E /* iSilk.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		97E9347B1C0E59100032438E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "mikel evins";
+				TargetAttributes = {
+					97E934821C0E59100032438E = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = 3RPC7DCRF2;
+					};
+				};
+			};
+			buildConfigurationList = 97E9347E1C0E59100032438E /* Build configuration list for PBXProject "iSilk" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 97E9347A1C0E59100032438E;
+			productRefGroup = 97E934841C0E59100032438E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				97E934821C0E59100032438E /* iSilk */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		97E934811C0E59100032438E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97E934941C0E59100032438E /* LaunchScreen.storyboard in Resources */,
+				97E934911C0E59100032438E /* Assets.xcassets in Resources */,
+				97E9348C1C0E59100032438E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		97E9347F1C0E59100032438E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97E934891C0E59100032438E /* ViewController.swift in Sources */,
+				97E9349E1C0E59B00032438E /* FabricScene.swift in Sources */,
+				97E9348F1C0E59100032438E /* iSilk.xcdatamodeld in Sources */,
+				97E934871C0E59100032438E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		97E9348A1C0E59100032438E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				97E9348B1C0E59100032438E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		97E934921C0E59100032438E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				97E934931C0E59100032438E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		97E934961C0E59100032438E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		97E934971C0E59100032438E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		97E934991C0E59100032438E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = iSilk/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mikelevins.iSilk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		97E9349A1C0E59100032438E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = iSilk/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mikelevins.iSilk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		97E9347E1C0E59100032438E /* Build configuration list for PBXProject "iSilk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97E934961C0E59100032438E /* Debug */,
+				97E934971C0E59100032438E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		97E934981C0E59100032438E /* Build configuration list for PBXNativeTarget "iSilk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97E934991C0E59100032438E /* Debug */,
+				97E9349A1C0E59100032438E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		97E9348D1C0E59100032438E /* iSilk.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				97E9348E1C0E59100032438E /* iSilk.xcdatamodel */,
+			);
+			currentVersion = 97E9348E1C0E59100032438E /* iSilk.xcdatamodel */;
+			path = iSilk.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 97E9347B1C0E59100032438E /* Project object */;
+}
